@@ -261,24 +261,120 @@ ul li {
 /* inspiration section style ends here */
 
 /* aspiration section style starts here */
-.aspiration-container {
-  display: flex;
-  flex-direction: column;
-  border: 2px rgb(16, 93, 207) solid;
-  margin-top: 151px;
-  margin-bottom: 49px;
-}
 /* my current target section style */
 .my-current-target {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 151px;
+  margin-bottom: 111px;
+  min-width: 1140px;
+}
+.ct-aspiration-content {
+  display: flex;
+  width: 946px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+.ct-aspiration-content h1 {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.ct-aspiration-content p {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+/* aspiration cardbox style */
+.aspiration-cardbox {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
+  min-width: 1140px;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
 }
-.ct-aspiration-content {
+#card-box-1 {
+  display: flex;
+  width: 364px;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+#card-box-2 {
+  display: flex;
+  width: 364px;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+#card-box-3 {
+  display: flex;
+  width: 364px;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
 }
 
+#card-box-1,
+#card-box-2,
+#card-box-3,
+h3 {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px;
+}
+#card-box-1,
+#card-box-2,
+#card-box-3,
+p {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+}
+#card-box-1,
+#card-box-2,
+#card-box-3,
+a {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 /* my next target section style */
 .my-next-target {
   display: flex;
