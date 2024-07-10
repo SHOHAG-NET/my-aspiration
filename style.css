@@ -367,7 +367,7 @@ ul li {
 /* support section style ends here */
 
 /* footer section style starts here */
-footer {
+.footer-container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -376,9 +376,9 @@ footer {
   max-width: 1440px;
   padding: 32px 150px;
   border-radius: 16px 16px 0px 0px;
-  background: rgba(13, 19, 33, 0.03);
+  background: rgba(13, 19, 33, 0.06);
 }
-.copywrite-container p {
+.footer-content p {
   color: #0d1321;
   text-align: center;
   font-family: "Azeret Mono";
@@ -389,9 +389,7 @@ footer {
 }
 .social-media-container {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
   gap: 24px;
 }
 /* footer section style ends here */
